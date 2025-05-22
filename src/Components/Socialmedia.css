@@ -1,0 +1,11 @@
+.social-icons a {
+  font-size: 32px;
+  color: #82d4ff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-4px);
+  color: white;
+}
+

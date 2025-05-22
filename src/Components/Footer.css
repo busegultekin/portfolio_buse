@@ -1,0 +1,33 @@
+.footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #121212;
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.footer::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: #82d4ff;
+  margin: 0 auto 20px;
+  opacity: 0.3;
+}
+
+/* 🔽 MOBİL UYUMLULUK */
+@media (max-width: 600px) {
+  .footer {
+    font-size: 13px;
+    padding: 20px 15px;
+  }
+
+  .footer::before {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+}
+
+

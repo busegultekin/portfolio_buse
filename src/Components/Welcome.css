@@ -1,0 +1,86 @@
+/*.home-section {
+  position: relative;
+  height: 100vh;
+  width: calc(100vw - 260px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  padding: 0;
+}*/
+
+
+.home-section {
+  background-image: url('/public/images/Arkaplanbuse.png'); /* public klasöründeyse "/public" yazmana gerek yok */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 40px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.home-content {
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.typewriter-text {
+  overflow: hidden;
+  border-right: 3px solid #ffffff;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+  display: inline-block;
+  font-size: 60px; /* DÜZENLENDİ */
+  font-weight: bold;
+  background: linear-gradient(90deg, #308dbe, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.home-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.home-subtitle {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* 🔽 MOBİL DÜZENLEME */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 20px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .typewriter-text {
+    font-size: 32px;
+    white-space: normal;
+    border: none;
+    animation: none;
+  }
+
+  .home-subtitle {
+    font-size: 16px;
+  }
+}
+
+
+

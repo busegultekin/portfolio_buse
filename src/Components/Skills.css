@@ -1,0 +1,203 @@
+.skills-section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: auto;
+  color: white;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #82d4ff;
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.skills-left {
+  flex: 1 1 300px;
+}
+
+.skills-left ul {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.skills-right {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.interests h3,
+.abilities h3 {
+  margin-bottom: 10px;
+  color: #82d4ff;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #444;
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.tag:hover {
+  background-color: #60c3ff;
+}
+
+.tag.active {
+  background-color: #82d4ff;
+  color: #000;
+  font-weight: bold;
+}
+
+.abilities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c2e2e;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.skill-name {
+  font-weight: 500;
+}
+
+.skill-level {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.skill-level.advanced {
+  background-color: #00e676;
+  color: black;
+}
+
+.skill-level.intermediate {
+  background-color: #ffc107;
+  color: black;
+}
+
+.skill-level.beginner {
+  background-color: #ff5252;
+  color: white;
+}
+
+
+.hobbies {
+  margin-top: 40px;
+  background-color: #1d3b3b;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  max-width: 400px;
+  color: #eee;
+}
+
+.hobbies h3 {
+  color: #82d4ff;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.hobbies ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.hobbies li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.languages-cv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.languages, .cv-download {
+  background-color: #1d3b3b;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  max-width: 400px;
+  color: #eee;
+}
+
+.languages h3, .cv-download h3 {
+  color: #82d4ff;
+  margin-bottom: 12px;
+}
+
+.languages ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.cv-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #82d4ff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cv-btn:hover {
+  background-color: #60c3ff;
+}
+
+.skills-intro.card {
+  background-color: #1d3b3b;
+  padding: 20px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  color: #fff;
+}
+
+.skills-intro.card h3 {
+  color: #82d4ff;
+  margin-bottom: 15px;
+  font-size: 20px; /* Başlık boyutu */
+}
+
+.skills-intro.card h3 {
+  color: #82d4ff;
+  margin-bottom: 15px;
+}
+
+
+

@@ -1,0 +1,46 @@
+.project-card {
+  background-color: #222;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-small {
+  background-color: #82d4ff;
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: black;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-small:hover {
+  background-color: #60c3ff;
+}
+
+/* 🔽 MOBİL DESTEK */
+@media (max-width: 768px) {
+  .project-card {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  .btn-small {
+    width: 100%;
+    font-size: 15px;
+  }
+}

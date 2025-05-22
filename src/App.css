@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  background-color: #2f4f4f;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #82d4ff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #121212;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.nav-link:hover {
+  background-color: #2d4d4d;
+}
+
+/* SECTION Default */
+.section {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+
+}
+
+.hire-btn {
+  padding: 12px 24px;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  background: transparent;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.hire-btn:hover {
+  background: #00ffcc;
+  color: #000;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #82d4ff;
+}
+
+.section {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+}
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+  html {
+  scroll-behavior: smooth;
+}
+
+.layout {
+  scroll-behavior: smooth;
+}
+
+.scroll-to-top {
+    
+    background: #5c5e60;
+    color: white;
+
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 35px;
+  height: 45px;
+  background-color: #82d4ff;
+  color: black;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+  text-decoration: none;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-to-top:hover {
+  background-color: #2f4f4f;
+}
+
+.main-content {
+  margin-left: 260px;
+  width: calc(100vw - 260px);
+  transition: margin 0.3s ease;
+}
+
+/* 🌐 Mobilde sola yaslasın */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    width: 100vw;
+  }
+}
+
+/* Main content uyumu sidebar ile birlikte */
+.main-content {
+  margin-left: 260px;
+  width: calc(100vw - 260px);
+  transition: margin 0.3s ease, width 0.3s ease;
+}
+
+/* Eğer sidebar kapalıysa genişle */
+.sidebar-closed .main-content {
+  margin-left: 0;
+  width: 100vw;
+}
+
+/* Mobil görünümde tam ekran */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0 !important;
+    width: 100vw !important;
+  }
+}
