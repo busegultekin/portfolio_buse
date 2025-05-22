@@ -1,17 +1,15 @@
+import React from 'react';
 import './Welcome.css';
 
 function Welcome() {
   return (
-    <section id="home" className="home-section">
+    <section className="home-section" id="home">
       <div className="home-content">
-        <h1 className="intro-title">
-          <span className="typewriter-text">Merhaba, ben Buse!</span>
-        </h1>
-        <p className="home-subtitle">
-          Frontend geliştirici / Bilgisayar Mühendisliği öğrencisi
-        </p>
+        <h1 className="typewriter-text">Merhaba, ben Buse!</h1>
+        <p className="home-subtitle">Frontend geliştirici / Bilgisayar Mühendisliği öğrencisi</p>
       </div>
     </section>
   );
 }
+
 export default Welcome;

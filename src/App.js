@@ -13,21 +13,35 @@ import './App.css';
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
-  // Ekran boyutuna göre ilk durumu belirle
   useEffect(() => {
     const handleResize = () => {
       setIsSidebarOpen(window.innerWidth > 768);
     };
 
-    handleResize(); // Sayfa yüklendiğinde çağır
+    handleResize();
     window.addEventListener('resize', handleResize);
-
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
+
+  // 🔽 Sayfada bir linke tıklanırsa sidebar mobilde kapansın
+  useEffect(() => {
+    const handleLinkClick = (e) => {
+      if (window.innerWidth <= 768) {
+        setIsSidebarOpen(false);
+      }
+    };
+
+    const links = document.querySelectorAll('.sidebar nav a');
+    links.forEach(link => link.addEventListener('click', handleLinkClick));
+
+    return () => {
+      links.forEach(link => link.removeEventListener('click', handleLinkClick));
+    };
+  }, []);
 
   return (
     <div className="layout">
@@ -48,9 +62,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-

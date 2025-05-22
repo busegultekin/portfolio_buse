@@ -1,40 +1,111 @@
 /*.home-section {
-  position: relative;
-  height: 100vh;
-  width: calc(100vw - 260px);
+  background-image: url('/public/images/Arkaplanbuse.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  width: 100vw;
+  height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  padding: 0 20px;
   text-align: center;
+  position: relative;
   overflow: hidden;
-  padding: 0;
 }*/
 
-
-.home-section {
-  background-image: url('/public/images/Arkaplanbuse.png'); /* public klasöründeyse "/public" yazmana gerek yok */
+/*.home-section {
+  position: relative; 
+  background-image: url('/public/images/Arkaplanbuse.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.home-content {
+  max-width: 90%;
+  z-index: 1;
+
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.typewriter-text {
+  overflow: hidden;
+  border-right: 3px solid #ffffff;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+  display: flex;
+  font-size: 60px;
+  font-weight: bold;
+
+  background: linear-gradient(90deg, #308dbe, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+
+.home-subtitle {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .home-section {
+    padding: 0 16px;
+    height: 100vh;
+  }
+
+  .typewriter-text {
+    font-size: 34px;
+  }
+
+  .home-subtitle {
+    font-size: 16px;
+  }
+}
+*/
+
+.home-section {
+  position: relative;
+  background-image: url('/public/images/Arkaplanbuse.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  padding: 0 40px;
   text-align: center;
-  flex-direction: column;
+  padding: 0 20px;
+  overflow: hidden;
 }
 
 .home-content {
-  z-index: 1;
+  width: 100%;
   max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  transform: translateX(-130px); /* 💡 Sidebar'ın etkisini dengeler */
 }
 
 .typewriter-text {
@@ -43,8 +114,7 @@
   white-space: nowrap;
   letter-spacing: 2px;
   animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
-  display: inline-block;
-  font-size: 60px; /* DÜZENLENDİ */
+  font-size: 60px;
   font-weight: bold;
   background: linear-gradient(90deg, #308dbe, #ffffff);
   -webkit-background-clip: text;
@@ -52,35 +122,30 @@
   margin-bottom: 10px;
 }
 
-.home-title {
-  font-size: 48px;
-  font-weight: bold;
-}
-
 .home-subtitle {
   font-size: 20px;
-  margin-bottom: 30px;
+  color: white;
+  margin-top: 10px;
 }
 
-/* 🔽 MOBİL DÜZENLEME */
+/* Mobil uyum */
 @media (max-width: 768px) {
-  .home-section {
-    padding: 20px;
-    flex-direction: column;
-    height: auto;
-  }
-
   .typewriter-text {
-    font-size: 32px;
+    font-size: 34px;
     white-space: normal;
-    border: none;
-    animation: none;
+    border-right: none;
   }
 
-  .home-subtitle {
-    font-size: 16px;
+  .home-content {
+    transform: none; /* Mobilde düz hizalanır */
+  }
+
+  .home-section {
+    padding: 0 10px;
   }
 }
+
+
 
 
 
