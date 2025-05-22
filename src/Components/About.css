@@ -70,7 +70,6 @@
   color: #ccc;
 }
 
-/* 🔽 MOBİL UYUMLU HALE GETİRME */
 @media (max-width: 768px) {
   .about-container {
     padding: 20px;

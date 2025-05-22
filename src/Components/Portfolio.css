@@ -32,7 +32,6 @@
   background-color: #60c3ff;
 }
 
-/* 🔽 MOBİL DESTEK */
 @media (max-width: 768px) {
   .project-card {
     padding: 16px;

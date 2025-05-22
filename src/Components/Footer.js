@@ -1,6 +1,5 @@
 import './Footer.css';
 
-// Footer.js (veya App.js'in en altında olabilir)
 function Footer() {
   return (
     <footer className="footer">

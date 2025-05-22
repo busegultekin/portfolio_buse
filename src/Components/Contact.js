@@ -14,7 +14,7 @@ function Contact() {
         <div className="contact-form-wrapper">
           <h2>İletişim</h2>
           <form 
-          action="https://formsubmit.co/greyjjk0@gmail.com" 
+          action="https://formsubmit.co/busegultek123@gmail.com" 
           method="POST"
           className="contact-form"
 >
@@ -23,7 +23,6 @@ function Contact() {
         <textarea name="message" placeholder="Mesajınız" rows="5" required></textarea>
         <button type="submit" className="btn">Gönder</button>
         </form>
-
         </div>
       </div>
     </section>

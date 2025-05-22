@@ -16,12 +16,10 @@
   z-index: 1000;
 }
 
-/* Mobilde sidebar kapalıyken kaybolur */
 .sidebar.closed {
   transform: translateX(-100%);
 }
 
-/* Hamburger ikon */
 .burger-icon {
   display: none;
   position: fixed;
@@ -33,7 +31,6 @@
   cursor: pointer;
 }
 
-/* Mobil görünüm */
 @media (max-width: 768px) {
   .burger-icon {
     display: block;
@@ -45,7 +42,6 @@
   }
 }
 
-/* Masaüstü görünüm */
 @media (min-width: 769px) {
   .sidebar {
     transform: translateX(0);
@@ -93,7 +89,6 @@
    display: block;
   margin: 10px 0;
 }
-
 
 .sidebar nav a:hover {
   color: #2f4f4f;

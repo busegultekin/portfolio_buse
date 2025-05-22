@@ -52,7 +52,6 @@ a:hover {
   background-color: #2d4d4d;
 }
 
-/* SECTION Default */
 .section {
   padding: 100px 20px;
   display: flex;
@@ -156,8 +155,6 @@ h2 {
   transition: margin 0.3s ease;
 }
 
-
-/* 🌐 Mobilde sola yaslasın */
 @media (max-width: 768px) {
   .main-content {
     margin-left: 0;
@@ -165,7 +162,6 @@ h2 {
   }
 }
 
-/* Main content uyumu sidebar ile birlikte */
 .main-content {
   margin-left: 260px;
   width: calc(100vw - 260px);
@@ -173,13 +169,11 @@ h2 {
   
 }
 
-/* Eğer sidebar kapalıysa genişle */
 .sidebar-closed .main-content {
   margin-left: 0;
   width: 100vw;
 }
 
-/* Mobil görünümde tam ekran */
 @media (max-width: 768px) {
   .main-content {
     margin-left: 0 !important;

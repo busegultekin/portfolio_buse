@@ -73,7 +73,6 @@
   background-color: #60c3ff;
 }
 
-/* 🔽 MOBİL UYUM (Responsive) */
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;

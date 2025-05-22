@@ -2,7 +2,6 @@ import React from 'react';
 import './Sidebar.css';
 
 function Sidebar({ isOpen, toggleSidebar }) {
-  // Sadece mobilde çalışması için:
   const handleNavClick = () => {
     if (window.innerWidth <= 768) {
       toggleSidebar();

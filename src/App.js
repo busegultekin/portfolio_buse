@@ -27,7 +27,6 @@ function App() {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  // 🔽 Sayfada bir linke tıklanırsa sidebar mobilde kapansın
   useEffect(() => {
     const handleLinkClick = (e) => {
       if (window.innerWidth <= 768) {

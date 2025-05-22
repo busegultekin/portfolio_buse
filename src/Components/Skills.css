@@ -107,7 +107,6 @@
   color: white;
 }
 
-
 .hobbies {
   margin-top: 40px;
   background-color: #1d3b3b;
@@ -191,7 +190,7 @@
 .skills-intro.card h3 {
   color: #82d4ff;
   margin-bottom: 15px;
-  font-size: 20px; /* Başlık boyutu */
+  font-size: 20px; 
 }
 
 .skills-intro.card h3 {
