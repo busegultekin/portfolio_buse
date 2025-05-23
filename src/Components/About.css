@@ -8,7 +8,7 @@
   max-width: 900px;
   margin: auto;
   animation: fadeUp 1s ease;
-  width: 90%; /* mobilde kenarlardan taşmasın */
+  width: 90%; 
 }
 
 .about-content h2 {

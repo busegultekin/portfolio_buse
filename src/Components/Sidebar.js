@@ -14,11 +14,11 @@ function Sidebar({ isOpen, toggleSidebar }) {
       <div className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
         <img src="/images/images.jpeg" alt="Profil" className="profile-pic" />
         <h2>Buse Gültekin</h2>
-        <p>Frontend Developer</p>
+        <p>Full Stack Developer</p>
         <nav>
           <a href="#about" onClick={handleNavClick}>Ben Kimim?</a>
-          <a href="#skills" onClick={handleNavClick}>Neler Yapabilirim?</a>
-          <a href="#portfolio" onClick={handleNavClick}>Portfolyo</a>
+          <a href="#skills" onClick={handleNavClick}>Neler Yapıyorum ve de Neler Yapabilirim?</a>
+          <a href="#portfolio" onClick={handleNavClick}>Projelerim</a>
           <a href="#contact" onClick={handleNavClick}>İletişim</a>
           <a href="#social-media" onClick={handleNavClick}>Sosyal Medya</a>
         </nav>

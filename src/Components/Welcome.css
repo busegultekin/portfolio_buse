@@ -30,16 +30,17 @@
 }
 
 .typewriter-text {
-  overflow: hidden;
-  border-right: 3px solid #ffffff;
-  white-space: nowrap;
-  letter-spacing: 2px;
-  animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+  font-family: 'Roboto', sans-serif; 
+  font-style: italic;
+  font-weight: 750;
   font-size: 60px;
-  font-weight: bold;
   background: linear-gradient(90deg, #308dbe, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
   margin-bottom: 10px;
 }
 

@@ -6,7 +6,7 @@ function Welcome() {
     <section className="home-section" id="home">
       <div className="home-content">
         <h1 className="typewriter-text">Merhaba, ben Buse!</h1>
-        <p className="home-subtitle">Frontend geliştirici / Bilgisayar Mühendisliği öğrencisi</p>
+        <p className="home-subtitle">Full Stack Geliştirici / Bilgisayar Mühendisliği öğrencisi</p>
       </div>
     </section>
   );

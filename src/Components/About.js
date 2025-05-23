@@ -7,7 +7,7 @@ function About() {
         <div className="about-content">
           <h2>Ben Kimim?</h2>
           <p>
-            Ben Buse Gültekin. Bilgisayar Mühendisliği öğrencisiyim. 
+            Ben Buse Gültekin. 20 yaşındayım. Bilgisayar Mühendisliği öğrencisiyim. 
             Yazılım ve teknolojiye olan ilgim sayesinde, bilgisayar mühendisliği
             alanında kendimi sürekli geliştirmeye çalışıyorum. Ayrıca, yapay
             zeka üzerine araştırmalar yapıyor, veri işleme ve makine

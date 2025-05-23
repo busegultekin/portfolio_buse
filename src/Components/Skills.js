@@ -9,11 +9,12 @@ const skills = [
   { name: 'JavaScript', level: 'intermediate', tags: ['JS'] },
   { name: 'Git & GitHub', level: 'beginner', tags: ['Versiyon'] },
   { name: 'Python', level: 'intermediate', tags: ['Yapay Zeka'] },
-  { name: 'TensorFlow', level: 'beginner', tags: ['Yapay Zeka'] }
+  { name: 'TensorFlow', level: 'beginner', tags: ['Yapay Zeka'] },
+  { name: 'C++', level: 'intermediate', tags: ['C,C++'] },
+  { name: 'C', level: 'intermediate', tags: ['C,C++'] }
 ];
 
-
-  const interests = ['Tümü', 'Web', 'JS', 'Yapay Zeka', 'Versiyon'];
+  const interests = ['Tümü', 'Web', 'JS', 'Yapay Zeka', 'Versiyon', 'C,C++'];
 
   const filteredSkills = selectedInterest === 'Tümü'
     ? skills
@@ -40,9 +41,9 @@ const skills = [
     <div className="hobbies">
   <h3>Hobilerim</h3>
   <ul>
-    <li>🎨 Çizim ve tasarım yapmak.</li>
+    <li>🎨 Çizim ve kil yapmak.</li>
     <li>🎧 Müzik dinlemek.</li>
-    <li>✈️ Yeni yerler keşfetmek, seyahat etmek.</li>
+    <li>✈️ Seyahat etmek, yeni yerler keşfetmek.</li>
     <li>🤿 Spor yapmak.</li>
   </ul>
 </div>
@@ -53,7 +54,6 @@ const skills = [
     <ul>
       <li><strong>🇬🇧  </strong> İngilizce ⭐ upp-intermediate</li>
       <li><strong>🇩🇪  </strong> Almanca ⭐ beginner</li>
-      <li><strong>🇰🇷  </strong> Korece ⭐ beginner</li>
     </ul>
   </div>
 
